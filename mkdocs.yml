@@ -1,12 +1,15 @@
 site_name: knowledge-base
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tabs
 markdown_extensions:
   - admonition
   - codehilite
+extra_css:
+  - assets/stylesheets/custom.css
 nav:
   - Home: README.md
   - tmux: tmux/use-tmux-for-production-scripts.md

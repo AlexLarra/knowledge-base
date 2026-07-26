@@ -1,0 +1,16 @@
+.md-header__brand {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  padding-top: 15px;
+}
+
+.md-header__author {
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.md-header__tagline {
+  font-size: .58rem;
+  opacity: .7;
+}
