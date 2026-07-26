@@ -1,10 +1,20 @@
 site_name: knowledge-base
+copyright: "&copy; Alexander Larrazabal (alexlarra)"
 theme:
   name: material
   custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tabs
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alexlarra/
+      name: LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/AlexLarra
+      name: GitHub
 markdown_extensions:
   - admonition
   - codehilite
