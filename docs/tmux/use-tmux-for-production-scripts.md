@@ -24,10 +24,16 @@ tmux new -s script
 
 ```
 cd /path/to/your/project
+# Option A: run a script/command directly
 ./your-long-running-script.sh
+
+# Option B: open an interactive runtime console, then execute the script there
+bundle exec rails c -e production
+# or (example)
+python manage.py shell
 ```
 
-It is a good practice to add some logging output (e.g. `puts` in Ruby, `print` in Python) inside your script so you can verify it is making progress.
+Once inside the console, paste/run the script you need. Keep small progress logs (e.g. `puts` in Ruby, `print` in Python) so you can verify it is moving forward.
 
 ## Step 4: Detach from the `tmux` Session
 
