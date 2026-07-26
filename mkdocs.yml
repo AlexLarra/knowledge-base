@@ -9,7 +9,7 @@ plugins:
       reconfigure_search: true
       languages:
         - locale: es
-          name: Espanol
+          name: Español
           build: true
         - locale: en
           name: English
