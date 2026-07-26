@@ -1,10 +1,24 @@
 site_name: knowledge-base
 copyright: "&copy; Alexander Larrazabal (alexlarra)"
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: es
+          name: Espanol
+          build: true
+        - locale: en
+          name: English
+          default: true
+          build: true
 theme:
   name: material
   custom_dir: overrides
   features:
-    - navigation.instant
     - navigation.tabs
 extra:
   generator: false
