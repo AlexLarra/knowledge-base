@@ -1,0 +1,12 @@
+site_name: knowledge-base
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+markdown_extensions:
+  - admonition
+  - codehilite
+nav:
+  - Home: README.md
+  - tmux: tmux/use-tmux-for-production-scripts.md
