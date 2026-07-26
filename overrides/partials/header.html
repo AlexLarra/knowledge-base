@@ -78,7 +78,35 @@
     {% endif %}
 
     {% if config.extra.alternate %}
-      {% include "partials/alternate.html" %}
+      {% set alternate = namespace(en=None, es=None) %}
+      {% for item in config.extra.alternate %}
+        {% if item.lang == "en" %}
+          {% set alternate.en = item %}
+        {% elif item.lang == "es" %}
+          {% set alternate.es = item %}
+        {% endif %}
+      {% endfor %}
+      <div class="md-header__lang" aria-label="Language switcher">
+        {% if alternate.en %}
+          <a
+            href="{{ alternate.en.link | url }}"
+            class="md-header__lang-link{% if i18n_page_locale == 'en' %} md-header__lang-link--active{% endif %}"
+          >
+            English
+          </a>
+        {% endif %}
+        {% if alternate.en and alternate.es %}
+          <span class="md-header__lang-sep" aria-hidden="true">|</span>
+        {% endif %}
+        {% if alternate.es %}
+          <a
+            href="{{ alternate.es.link | url }}"
+            class="md-header__lang-link{% if i18n_page_locale == 'es' %} md-header__lang-link--active{% endif %}"
+          >
+            Español
+          </a>
+        {% endif %}
+      </div>
     {% endif %}
 
     <div class="md-header__social" aria-label="Social links">
