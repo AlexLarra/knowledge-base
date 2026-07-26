@@ -14,3 +14,18 @@
   font-size: .58rem;
   opacity: .7;
 }
+
+.md-header__social {
+  display: flex;
+  align-items: center;
+}
+
+.md-header__social .md-header__button {
+  padding: .2rem;
+}
+
+@media screen and (max-width: 60em) {
+  .md-header__social {
+    display: none;
+  }
+}

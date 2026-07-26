@@ -81,6 +81,29 @@
       {% include "partials/alternate.html" %}
     {% endif %}
 
+    <div class="md-header__social" aria-label="Social links">
+      <a
+        href="https://www.linkedin.com/in/alexlarra/"
+        class="md-header__button md-icon"
+        target="_blank"
+        rel="noopener"
+        aria-label="LinkedIn"
+        title="LinkedIn"
+      >
+        {% include ".icons/fontawesome/brands/linkedin.svg" %}
+      </a>
+      <a
+        href="https://github.com/AlexLarra"
+        class="md-header__button md-icon"
+        target="_blank"
+        rel="noopener"
+        aria-label="GitHub"
+        title="GitHub"
+      >
+        {% include ".icons/fontawesome/brands/github.svg" %}
+      </a>
+    </div>
+
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}
       {% if search.enabled %}
