@@ -1,4 +1,5 @@
 site_name: knowledge-base
+site_url: https://alexlarra.github.io/knowledge-base/
 copyright: "&copy; Alexander Larrazabal (alexlarra)"
 plugins:
   - search
