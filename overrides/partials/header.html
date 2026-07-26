@@ -92,7 +92,8 @@
             href="{{ alternate.en.link | url }}"
             class="md-header__lang-link{% if i18n_page_locale == 'en' %} md-header__lang-link--active{% endif %}"
           >
-            English
+            <span class="md-header__lang-long">English</span>
+            <span class="md-header__lang-short">EN</span>
           </a>
         {% endif %}
         {% if alternate.en and alternate.es %}
@@ -103,7 +104,8 @@
             href="{{ alternate.es.link | url }}"
             class="md-header__lang-link{% if i18n_page_locale == 'es' %} md-header__lang-link--active{% endif %}"
           >
-            Español
+            <span class="md-header__lang-long">Español</span>
+            <span class="md-header__lang-short">ES</span>
           </a>
         {% endif %}
       </div>

@@ -39,6 +39,10 @@
   text-decoration: none;
 }
 
+.md-header__lang-short {
+  display: none;
+}
+
 .md-header__lang-link:hover {
   opacity: 1;
   text-decoration: underline;
@@ -59,7 +63,19 @@
     margin-inline: .2rem;
   }
 
-  .md-header__social {
+  .md-header__lang-long {
     display: none;
+  }
+
+  .md-header__lang-short {
+    display: inline;
+  }
+
+  .md-header__social {
+    display: flex;
+  }
+
+  .md-header__social .md-header__button {
+    padding: .1rem;
   }
 }
