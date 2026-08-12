@@ -8,5 +8,6 @@ The goal is to provide simple, straightforward, and easy-to-understand resources
 
 - [git: Why use Git](git/why-use-git.md)
 - [git: Git for Kids (CLI only)](git/git-for-kids-cli.md)
+- [git: diff-so-fancy (optional)](git/diff-so-fancy.md)
 - [tmux: Why use tmux](tmux/why-use-tmux.md)
 - [tmux: Tmux for server scripts](tmux/use-tmux-for-production-scripts.md)
