@@ -1,6 +1,8 @@
-# knowledge-base
+# Guías para nuevos programadores
 
-Una colección de notas técnicas, guías y explicaciones visuales para desarrolladores, con foco especial en principiantes.
+Bienvenido. Este sitio recoge guías prácticas y explicaciones paso a paso pensadas para quienes están dando sus primeros pasos en el mundo de la programación.
+
+El objetivo es ofrecer recursos sencillos, directos y fáciles de entender. Cada guía parte de cero, sin asumir conocimientos previos, para que puedas aprender con tranquilidad y a tu propio ritmo.
 
 ## Guías disponibles
 

@@ -1,6 +1,8 @@
-# knowledge-base
+# Guides for New Programmers
 
-A curated collection of technical notes, guides, and visual explanations for developers, with a special focus on beginners.
+Welcome. This site gathers practical guides and step-by-step explanations designed for those taking their first steps into programming.
+
+The goal is to provide simple, straightforward, and easy-to-understand resources. Every guide starts from scratch, with no prior knowledge assumed, so you can learn at your own pace.
 
 ## Available guides
 
