@@ -6,6 +6,6 @@ The goal is to provide simple, straightforward, and easy-to-understand resources
 
 ## Available guides
 
-- [tmux: Use tmux sessions in production for scripts](tmux/use-tmux-for-production-scripts.md)
 - [git: Why use Git](git/why-use-git.md)
 - [git: Git for Kids (CLI only)](git/git-for-kids-cli.md)
+- [tmux: Use tmux sessions in production for scripts](tmux/use-tmux-for-production-scripts.md)
