@@ -40,4 +40,6 @@ nav:
   - Git:
       - Por qué usar Git: git/why-use-git.md
       - Git para niños: git/git-for-kids-cli.md
-  - Tmux: tmux/use-tmux-for-production-scripts.md
+  - Tmux:
+      - Por qué usar tmux: tmux/why-use-tmux.md
+      - Usar sesiones de tmux: tmux/use-tmux-for-production-scripts.md

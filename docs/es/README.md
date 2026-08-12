@@ -8,4 +8,5 @@ El objetivo es ofrecer recursos sencillos, directos y fáciles de entender. Cada
 
 - [git: Por qué usar Git](git/why-use-git.md)
 - [git: Git para niños (solo CLI)](git/git-for-kids-cli.md)
+- [tmux: Por qué usar tmux](tmux/why-use-tmux.md)
 - [tmux: Usar sesiones de tmux en producción para scripts](tmux/use-tmux-for-production-scripts.md)
