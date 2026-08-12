@@ -1,3 +1,7 @@
+---
+title: Git for kids
+---
+
 # Git for Kids: Branches, Commits, and Merges (CLI only)
 
 This guide teaches Git as if it were a story game.

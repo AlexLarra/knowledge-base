@@ -1,3 +1,7 @@
+---
+title: Tmux para scripts en el servidor
+---
+
 # Crear una sesión de `tmux` en un servidor conectado por SSH para scripts largos
 
 Cuando tienes un script que tardará bastante en ejecutarse en un servidor, conviene usar `tmux` para mantener el proceso activo aunque cierres la conexión SSH. Aquí tienes una guía paso a paso.

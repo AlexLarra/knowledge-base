@@ -1,3 +1,7 @@
+---
+title: Por qué usar Git
+---
+
 # Por qué usar Git
 
 Imagina que estás escribiendo un cuento largo en tu ordenador.

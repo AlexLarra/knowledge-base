@@ -1,3 +1,7 @@
+---
+title: Por qué usar tmux
+---
+
 # Por qué usar tmux
 
 Imagina que estás ejecutando un script en un servidor remoto por SSH.

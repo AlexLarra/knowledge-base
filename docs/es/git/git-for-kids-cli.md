@@ -1,3 +1,7 @@
+---
+title: Git para niños
+---
+
 # Git para niños: ramas, commits y merges (solo CLI)
 
 Esta guía enseña Git como si fuera un juego de historias.

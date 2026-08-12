@@ -1,3 +1,7 @@
+---
+title: Tmux for server scripts
+---
+
 # Creating a `tmux` Session on the Server Connected via SSH for Long-Running Scripts
 
 When you have a script that will take a long time to run on a server, it's beneficial to use `tmux` to keep the process running even if you disconnect from the server. Here's a step-by-step guide on how to do it:
