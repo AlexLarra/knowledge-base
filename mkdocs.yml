@@ -38,4 +38,6 @@ extra_css:
 nav:
   - Home: README.md
   - tmux: tmux/use-tmux-for-production-scripts.md
-  - git: git/git-for-kids-cli.md
+  - Git:
+      - Por qué usar Git: git/why-use-git.md
+      - Git para niños: git/git-for-kids-cli.md
