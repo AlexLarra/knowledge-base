@@ -43,4 +43,5 @@ nav:
       - git/diff-so-fancy.md
   - Tmux:
       - tmux/why-use-tmux.md
+      - tmux/tmux-workspace.md
       - tmux/use-tmux-for-production-scripts.md

@@ -10,4 +10,5 @@ El objetivo es ofrecer recursos sencillos, directos y fáciles de entender. Cada
 - [git: Git para niños (solo CLI)](git/git-for-kids-cli.md)
 - [git: diff-so-fancy (opcional)](git/diff-so-fancy.md)
 - [tmux: Por qué usar tmux](tmux/why-use-tmux.md)
+- [tmux: Crear un workspace con tmux](tmux/tmux-workspace.md)
 - [tmux: Tmux para scripts en el servidor](tmux/use-tmux-for-production-scripts.md)
