@@ -45,12 +45,6 @@ tmux attach -t $SESSION
 
 Ajusta las rutas (`~/workspace/app1`, `~/workspace/app2`) y los comandos (`npm run dev`, `python manage.py runserver`) a los que uses en tu día a día.
 
-Dale permisos de ejecución:
-
-```sh
-chmod +x ~/.tmux_work.zsh
-```
-
 ## Paso 2: crea el alias
 
 Añade esto a tu `~/.zshrc` (o `~/.bashrc`):

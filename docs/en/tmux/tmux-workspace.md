@@ -45,12 +45,6 @@ tmux attach -t $SESSION
 
 Adjust the paths (`~/workspace/app1`, `~/workspace/app2`) and commands (`npm run dev`, `python manage.py runserver`) to match what you use on a daily basis.
 
-Make it executable:
-
-```sh
-chmod +x ~/.tmux_work.zsh
-```
-
 ## Step 2: create the alias
 
 Add this to your `~/.zshrc` (or `~/.bashrc`):
