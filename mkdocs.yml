@@ -40,6 +40,7 @@ nav:
   - Git:
       - git/why-use-git.md
       - git/git-for-kids-cli.md
+      - git/from-local-git-to-github.md
       - git/diff-so-fancy.md
   - Tmux:
       - tmux/why-use-tmux.md

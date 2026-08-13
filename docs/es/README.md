@@ -8,6 +8,7 @@ El objetivo es ofrecer recursos sencillos, directos y fáciles de entender. Cada
 
 - [git: Por qué usar Git](git/why-use-git.md)
 - [git: Git para niños (solo CLI)](git/git-for-kids-cli.md)
+- [git: De Git local a GitHub](git/from-local-git-to-github.md)
 - [git: diff-so-fancy (opcional)](git/diff-so-fancy.md)
 - [tmux: Por qué usar tmux](tmux/why-use-tmux.md)
 - [tmux: Crear un workspace con tmux](tmux/tmux-workspace.md)
